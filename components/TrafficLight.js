@@ -54,6 +54,7 @@ export default class TrafficLight {
     body.append(element);
     element.addEventListener('click', this._stopAuto);
     this._button[1].setAttribute('disabled','disabled');
+    this._button[1].classList.add('button_disabled');
   }
 
   _stopAutoMode(evt) {
@@ -71,6 +72,7 @@ export default class TrafficLight {
       }
   }
   this._button[1].removeAttribute('disabled');
+  this._button[1].classList.remove('button_disabled');
   evt.target.remove();
   }
 
