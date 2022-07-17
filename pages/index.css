@@ -1,0 +1,15 @@
+/* Параметры ко всей странице */
+
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+/* Светофор */
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/__shadow/_red/container__shadow_red.css);
+@import url(../blocks/container/__shadow/_yellow/container__shadow_yellow.css);
+@import url(../blocks/container/__shadow/_green/container__shadow_green.css);
+@import url(../blocks/container/__circle/container__circle.css);
+@import url(../blocks/container/__color/_red/container__color_red.css);
+@import url(../blocks/container/__color/_yellow/container__color_yellow.css);
+@import url(../blocks/container/__color/_green/container__color_green.css);
+@import url(../blocks/button/button__switch.css);
